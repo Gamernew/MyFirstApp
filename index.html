@@ -5,17 +5,18 @@
   </head>
   <body>
     <script language='javascript'>
-      var name = window.prompt('What is your name ?');
-      window.alert('your name is ' + name);
-      var quest = window.prompt('What is your quest ?');
-      if(quest == 'to seek for the holy grail'){
 
-        window.alert('Good');
-      }
-      else {
-        window.alert('Arrgh');
-      }
+      var age = window.prompt("What is your age ?");
 
+      window.alert('You are ' + age + ' old');
+
+      if (age <= 30){
+        window.alert('You have still ' + (30 - age) + ' before to have 30 years' );
+      }
+      else{
+        window.alert('You have 30 years since ' + (age - 30)  + ' years');
+      }
       </script>
+
   </body>
 </html>
