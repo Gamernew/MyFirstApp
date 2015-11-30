@@ -1,0 +1,13 @@
+<button onclick="myFunction()">
+
+  WHO IS THE ELU ?</button>
+<p id="test"></p>
+<script>
+  function myFunction() {
+    var elu = ["BULTEZ Jordan", "BRUCHET Daniel", "CAPRON Axel", "CAUVEZ Thimoty", "DELISSE Manon", "DELPIERRE Michel", "FLORE Antoine", "FONTAINE François", "GIACCO Raphael", "GROUX Baptiste", "HURBAIN Jessy", "MACIEJEWSKI Jessica", "MARTINS Julie",
+      "MATEYAK Paul", "MONSERGENT François", "POURRIOT Quentin", "PROVO Kilian", "SCRUFARI Pietro", "TOMCZAK Kévin", "TOURNEUR Tristan", "VERGNE Victor", "VINCENT Simon", "ZAREMBA Victor", "LI Jin Hao"
+    ];
+    var randomValue = elu[Math.floor(elu.length * Math.random())];
+    document.getElementById("test").innerHTML = randomValue;
+  }
+</script>
